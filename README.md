@@ -41,12 +41,12 @@ CPU_core: The type of processor used in the laptop: This parameter is mapped to 
 ![Pipeline](images/Pipeline.png)
 
 Our standard training pipeline consists of several steps:
-- Ingest: The initial step involved data ingestion, where the dataset was gathered and imported into the project environment. Details regarding the data sources and ingestion process can be found in the [Data Ingestion Notebook](notebooks/Data_Ingestion.ipynb).
+- Ingest: The initial step involved data ingestion, where the dataset was gathered and imported into the project environment. Details regarding the data sources and ingestion process can be found in the [Data Ingestion Notebook](Notebooks/LaptopPricing_DataImport.ipynb).
   
-- Data Wranging: To prepare the dataset for analysis, a thorough data wrangling process was undertaken. This included addressing missing values, encoding categorical variables, and transforming features. For a comprehensive overview of the data wrangling steps, refer to the [Data Wrangling Notebook](notebooks/Data_Wrangling.ipynb).
+- Data Wranging: To prepare the dataset for analysis, a thorough data wrangling process was undertaken. This included addressing missing values, encoding categorical variables, and transforming features. For a comprehensive overview of the data wrangling steps, refer to the [Data Wrangling Notebook](Notebooks/LaptopPricing_DataWrangling.ipynb).
 
-- Exploratory Data Analysis: Exploratory Data Analysis (EDA) was conducted to unveil insights, patterns, and relationships within the dataset. The [EDA Notebook](notebooks/Exploratory_Data_Analysis.ipynb) contains visualizations and statistical analyses that provide a deeper understanding of the dataset.
+- Exploratory Data Analysis: Exploratory Data Analysis (EDA) was conducted to unveil insights, patterns, and relationships within the dataset. The [EDA Notebook](Notebooks/LaptopPricing_EDA.ipynb) contains visualizations and statistical analyses that provide a deeper understanding of the dataset.
   
-- Model Development: The core of the project involved developing machine learning models tailored to the specific problem. The [Model Development Notebook](notebooks/Model_Development.ipynb) documents the selection, training, and fine-tuning of the chosen model architecture.
+- Model Development: The core of the project involved developing machine learning models tailored to the specific problem. The [Model Development Notebook](Notebooks/LaptopPricing_ModelDevelopment.ipynb) documents the selection, training, and fine-tuning of the chosen model architecture.
 
-- Model Evaluation and Refinement: The trained models underwent rigorous evaluation using various metrics. Subsequent refinement steps, including hyperparameter tuning and feature selection, were applied to optimize model performance. Explore the [Model Evaluation and Refinement Notebook](notebooks/Model_Evaluation_Refinement.ipynb) for detailed insights into the evaluation process.
+- Model Evaluation and Refinement: The trained models underwent rigorous evaluation using various metrics. Subsequent refinement steps, including hyperparameter tuning and feature selection, were applied to optimize model performance. Explore the [Model Evaluation and Refinement Notebook](Notebooks/LaptopPricing_ModelEvaluation.ipynb) for detailed insights into the evaluation process.
