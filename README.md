@@ -38,7 +38,8 @@ CPU_core: The type of processor used in the laptop: This parameter is mapped to 
 | Intel Pentium i7   | 7              |
 
 # 🚀 Training Pipeline
-![Pipeline](images/flowchart.png)
+![Pipeline](images/Pipeline.png)
+
 Our standard training pipeline consists of several steps:
 - Ingest: The initial step involved data ingestion, where the dataset was gathered and imported into the project environment. Details regarding the data sources and ingestion process can be found in the [Data Ingestion Notebook](notebooks/Data_Ingestion.ipynb).
   
