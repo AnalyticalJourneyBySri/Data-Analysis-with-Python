@@ -1,5 +1,5 @@
 # Data Analysis in Python Projects Repository
-      Welcome to the Data Analysis in Python Projects repository! This repository contains a collection of projects completed as part of the IBM Data Analysis in Python course. Each project is designed to reinforce and apply the concepts learned throughout the course, providing hands-on experience in analyzing and visualizing data using Python. Throughout the course, I have acquired essential skills in handling datasets, extracting meaningful insights, and employing machine learning techniques for predictive analysis.
+Welcome to the Data Analysis in Python Projects repository! This repository contains a collection of projects completed as part of the IBM Data Analysis in Python course. Each project is designed to reinforce and apply the concepts learned throughout the course, providing hands-on experience in analyzing and visualizing data using Python. Throughout the course, I have acquired essential skills in handling datasets, extracting meaningful insights, and employing machine learning techniques for predictive analysis.
 
 ## Laptop Price Estimator: A Machine Learning Approach
 
@@ -36,3 +36,16 @@ CPU_core: The type of processor used in the laptop: This parameter is mapped to 
 | Intel Pentium i3   | 3              |
 | Intel Pentium i5   | 5              |
 | Intel Pentium i7   | 7              |
+
+# 🚀 Training Pipeline
+![Pipeline](images/flowchart.png)
+Our standard training pipeline consists of several steps:
+- Ingest: The initial step involved data ingestion, where the dataset was gathered and imported into the project environment. Details regarding the data sources and ingestion process can be found in the [Data Ingestion Notebook](notebooks/Data_Ingestion.ipynb).
+  
+- Data Wranging: To prepare the dataset for analysis, a thorough data wrangling process was undertaken. This included addressing missing values, encoding categorical variables, and transforming features. For a comprehensive overview of the data wrangling steps, refer to the [Data Wrangling Notebook](notebooks/Data_Wrangling.ipynb).
+
+- Exploratory Data Analysis: Exploratory Data Analysis (EDA) was conducted to unveil insights, patterns, and relationships within the dataset. The [EDA Notebook](notebooks/Exploratory_Data_Analysis.ipynb) contains visualizations and statistical analyses that provide a deeper understanding of the dataset.
+  
+- Model Development: The core of the project involved developing machine learning models tailored to the specific problem. The [Model Development Notebook](notebooks/Model_Development.ipynb) documents the selection, training, and fine-tuning of the chosen model architecture.
+
+- Model Evaluation and Refinement: The trained models underwent rigorous evaluation using various metrics. Subsequent refinement steps, including hyperparameter tuning and feature selection, were applied to optimize model performance. Explore the [Model Evaluation and Refinement Notebook](notebooks/Model_Evaluation_Refinement.ipynb) for detailed insights into the evaluation process.
